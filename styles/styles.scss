@@ -30,7 +30,7 @@ body {
   display: flex;
   column-gap: 18px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 24px;
   margin-bottom: 32px;
 
@@ -171,10 +171,26 @@ main {
 
     .container {
       padding: rem(32px) rem(39px) rem(32px) rem(32px);
+
+      .ratings {
+        button {
+          font-size: 1rem;
+          font-weight: 700;
+          line-height: 24px; /* 150% */
+          letter-spacing: 0.2px;
+          width: rem(51px);
+          height: rem(51px);
+        }
+      }
     }
 
     .thank_you {
       padding: rem(45px) rem(40px) rem(45px) rem(32px);
     }
+  }
+
+  .submit-btn {
+    font-size: 15px;
+    letter-spacing: 2px;
   }
 }
